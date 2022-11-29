@@ -1,0 +1,22 @@
+.card {
+	width: 33%
+}
+
+@media (max-width: 550px)
+{
+	.card {
+		width: 100%
+	}
+	
+	h1 {
+		font-size: 1.5rem !important
+	}
+	
+	h2 {
+		font-size: 1rem !important
+	}
+	
+	p, li {
+		font-size: 15px;
+	}	
+}
